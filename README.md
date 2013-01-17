@@ -16,8 +16,7 @@ approved vendor to access the TransferGuard Web Services.  Visit http://www.paml
 5. Press F5 to build and run a debug version of the sample application
 
 # FAQ
-1. I am getting the following error:
-Q:
+Q: I am getting the following error:
 <blockquote>
 There was an error downloading 'https://transferguard-cert.paml.com/v1/wsdl/TransferService.wsdl'. 
 The request was aborted: Could not create SSL/TLS secure channel. Metadata contains a reference that cannot be resolved: 'https://transferguard-cert.paml.com/v1/wsdl/TransferService.wsdl'.
@@ -25,8 +24,7 @@ Could not establish secure channel for SSL/TLS with authority 'transferguard-cer
 The request was aborted: Could not create SSL/TLS secure channel.
 If the service is defined in the current solution, try building the solution and adding the service reference again.
 </blockquote>
-A:
-Make sure that the web service references and config are in both the service project and any other calling projects. See [here](http://stackoverflow.com/a/2737593/27657) for more information.
+A: Make sure that the web service references and config are in both the service project and any other calling projects. See [here](http://stackoverflow.com/a/2737593/27657) for more information.
 
 
 # Need Help?
