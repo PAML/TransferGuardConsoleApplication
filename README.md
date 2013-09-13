@@ -14,7 +14,7 @@ approved vendor to access the TransferGuard Web Services.  Visit http://www.paml
 3. Open the project in Visual Studio
 4. Change SiteId to the site ID provided by PAML and included in your certificate
 5. Press F5 to build and run a debug version of the sample application
-6. Check out the sample order and result messages at paml.github.io/SampleMessages.html
+6. Check out the sample order and result messages at http://paml.github.io/SampleMessages.html
 
 # FAQ
 Q: I am getting the following error:
